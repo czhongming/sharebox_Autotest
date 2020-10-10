@@ -31,7 +31,6 @@ https://blog.csdn.net/ezreal_tao/article/details/80911950
 4、同一个图片在不同分辨率设备上识别结果很可能不同  
 5、截图尽量不要太多背景  
 
-
 ## pytest：启动和管理测试用例
 * 编写规则：  
 1、测试文件以test_开头（以_test结尾也可以）  
@@ -42,3 +41,5 @@ https://www.jianshu.com/p/a754e3d47671
 * pytest官方文档：  
 https://learning-pytest.readthedocs.io/zh/latest/
 
+## demo的github地址：  
+https://github.com/czhongming/sharebox_Autotest.git
