@@ -40,13 +40,14 @@ class WhiteBoardTest(unittest.TestCase):
                         "进入白板失败")
         # 白板划线
         self.driver.swipe(400, 400, 800, 400)
+        time.sleep(2)
         # 检查划线是否成功
         self.driver.save_screenshot("screen.png")
         self.assertTrue(exists("pen.png", "screen.png", need_completing_img_path=False), "白板书写不成功")
         os.remove("screen.png")
         # 添加白板页
         self.driver.find_element_by_id("com.ruijie.whiteboard:id/iv_tool_preview_add").click()
-        time.sleep(1)
+        time.sleep(2)
         # 检查是否添加成功
         page_num = self.driver.find_element_by_id("com.ruijie.whiteboard:id/tv_numAll").text
         self.assertTrue(page_num == str(2), "白板页添加错误，页码为{}".format(page_num))

@@ -4,10 +4,9 @@
 * UI层自动化：Appium/selenium/winappdriver/Airtest
 
 ## UI自动化三部曲
-* 启动被测app
+* 连接被测app
 * 定位并操作控件
 * 检验操作结果
-* 代码层自动化
 
 ## Appium框架
 * 原理介绍：   
